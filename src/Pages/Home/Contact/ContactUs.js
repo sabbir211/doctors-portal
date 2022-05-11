@@ -13,7 +13,7 @@ const ContactUs = () => {
                 <br />
                 <input type="text" placeholder="Subject" className=" my-2 input w-full max-w-xs" />
                 <br />
-                <textarea class="textarea" placeholder="Your message" className='w-full max-w-xs rounded p-4 focus:outline-none' rows="4"></textarea>
+                <textarea className="textarea" placeholder="Your message" className='w-full max-w-xs rounded p-4 focus:outline-none' rows="4"></textarea>
                 <br />
                 <input type="submit" value="Submit" className='my-5 px-8 text-white py-0 capitalize  bg-gradient-to-r from-secondary to-primary btn btn-primary' />
             </form>

@@ -4,23 +4,23 @@ import footerBg from '../../assets/images/footer.png'
 const Footer = () => {
     return (
         <div  >
-           <footer class="footer p-10 bg-contain" style={{backgroundImage: `url('${footerBg}')`}}>
+           <footer className="footer p-10 bg-contain" style={{backgroundImage: `url('${footerBg}')`}}>
             <div>
-                <span class="footer-title">Services</span>
-                <p class="link link-hover">Emergency Checkup</p>
-                <p class="link link-hover">Monthly Checkup</p>
-                <p class="link link-hover">Weekly Checkup</p>
-                <p class="link link-hover">Deep Checkup</p>
+                <span className="footer-title">Services</span>
+                <p className="link link-hover">Emergency Checkup</p>
+                <p className="link link-hover">Monthly Checkup</p>
+                <p className="link link-hover">Weekly Checkup</p>
+                <p className="link link-hover">Deep Checkup</p>
             </div>
 
             <div>
-                <span class="footer-title uppercase">Oral Health</span>
-                <a class="link link-hover">Fluoride Treatment</a>
-                <a class="link link-hover">Cavity Filling</a>
-                <a class="link link-hover">Teeth Whitening</a>
+                <span className="footer-title uppercase">Oral Health</span>
+                <a className="link link-hover">Fluoride Treatment</a>
+                <a className="link link-hover">Cavity Filling</a>
+                <a className="link link-hover">Teeth Whitening</a>
             </div>
             <div>
-                <span class="footer-title">Our Address</span>
+                <span className="footer-title">Our Address</span>
                 <div>
                     Walia Road,Fulbari,Lalpur,Natore
                 </div>
