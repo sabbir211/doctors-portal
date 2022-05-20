@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../Footer/Footer';
 import AppointmentBanner from './AppointmentBanner/AppointmentBanner';
 import AvailableAppointments from './AvailableAppointments.js/AvailableAppointments';
 
@@ -9,6 +10,7 @@ const AppointmentPage = () => {
         <div>
             <AppointmentBanner date={date} setDate={setDate}></AppointmentBanner>
             <AvailableAppointments date={date} ></AvailableAppointments>
+            <Footer></Footer>
         </div>
     );
 };

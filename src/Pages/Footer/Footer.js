@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import footerBg from '../../assets/images/footer.png'
 const Footer = () => {
     return (
-        <div  >
+        <div  className='container mx-auto'>
            <footer className="footer p-10 bg-contain" style={{backgroundImage: `url('${footerBg}')`}}>
             <div>
                 <span className="footer-title">Services</span>
@@ -26,6 +26,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>  
+        
         </div>
        
     );
